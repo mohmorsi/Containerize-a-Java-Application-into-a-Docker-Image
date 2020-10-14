@@ -12,7 +12,7 @@
 * [Questions](#questions)
 
 ## Demo
-![](https://media.giphy.com/media/0CO5bB87yBmS9500yw/giphy.gif)
+![](https://media.giphy.com/media/3OiKrJsfDiqqBL8pX3/giphy.gif)
 ## Usage
 
 ## Installation
