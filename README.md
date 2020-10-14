@@ -1,4 +1,4 @@
-# Containerizing a Java Application in a Docker Image
+# Containerizing a Java Application into a Docker Image
 
 ![image](./img/docker2.png)
 
