@@ -24,7 +24,7 @@ For this demonstration, I will be using a simple Java application named `Account
 
 1. Navigate to the folder containing the Java application and compile it:
 
-![](https://postimg.cc/rdNMJFH8)
+![](https://i.postimg.cc/k5kG72Ft/javac.png)
 
 2. Run the java program to verify that it works
 
