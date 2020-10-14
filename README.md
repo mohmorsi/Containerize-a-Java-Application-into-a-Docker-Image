@@ -22,7 +22,7 @@ A *container* simply put packages up all the code and dependencies in order in a
 ## Usage
 For this demonstration, I will be using a simple Java application named `Account.java` that creates two bank account objects and then sets and prints their balances.
 
-1. Navigate to the folder containing the Java application and compile it using javac:
+1. Navigate to the folder containing the Java application and compile it:
 
 `javac Account.java`
 
