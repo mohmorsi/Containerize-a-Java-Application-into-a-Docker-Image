@@ -14,9 +14,6 @@
 ## Introduction
 A *container* simply put packages up all the code and dependencies in order in a "canister", in order for the application to run smoothly in any computing environment. A **Docker container image** is a standalone executable that includes the application's code, system libraries and tools as well as its settings. Pretty neat!
 
-## Demo
-![](https://media.giphy.com/media/3OiKrJsfDiqqBL8pX3/giphy.gif)
-
 ## Usage
 For this demonstration, I will be using a simple Java application named `Account.java` that creates two bank account objects and then sets and prints their balances.
 
@@ -35,6 +32,9 @@ Define a working directory using the shell command `WORKDIR /root/Account` for t
 I installed OpenJDK on Alpine Linux as it is not pre-installed. Run the alpine package manager using the command `RUN apk add openjdk8` and then setup the environment variables using the commands `ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk`,`ENV PATH $PATH:$JAVA_HOME/bin`
 
 Finally, run the Java application using the command `RUN javac Account.java` and setup an entry point `ENTRYPOINT java Account`. 
+
+## Demo
+![](https://media.giphy.com/media/3OiKrJsfDiqqBL8pX3/giphy.gif)
 
 ## License
 Morsi 
