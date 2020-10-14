@@ -1,6 +1,6 @@
 # Containerize a Java Application into a Docker Image
 
-![project image](./img/docker.png)
+![image](./img/docker.png)
 
 ## Table of Contents
 * [Introduction](#introduction)
