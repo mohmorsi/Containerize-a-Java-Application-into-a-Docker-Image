@@ -28,7 +28,7 @@ For this demonstration, I will be using a simple Java application named `Account
 
 2. Run the java program to verify that it works
 
-`java Account.java`
+![](https://i.postimg.cc/ZnL5PVkr/java.png)
 
 Using vi or vim, whichever you choose, create a docker file that will containerize the java application. In this project I used Alpine Linux which is a very light-weight distro of Linux that is only 5MB in size. This makes it great to containerize `Account.java`.
 
