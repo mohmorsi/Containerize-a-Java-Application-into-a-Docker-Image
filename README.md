@@ -6,8 +6,6 @@
 * [Introduction](#introduction) 
 * [Demo](#demo)
 * [Usage](#usage)
-* [Installation](#installation)
-* [Usage](#usage)
 * [License](#license)
 * [Contributors](#contributors)
 * [Questions](#questions)
@@ -32,6 +30,9 @@ For this demonstration, I will be using a simple Java application named `Account
 
 Using vi or vim, whichever you choose, create a docker file that will containerize the java application. In this project I used Alpine Linux which is a very light-weight distro of Linux that is only 5MB in size. This makes it great to containerize `Account.java`.
 
+Define a working directory using the shell command `WORKDIR /root/Account` for the Java program and then move Java application over into the directory by using the command `COPY Account.java /root/Account` 
+
+Next, configure 
 
 
 ## License
