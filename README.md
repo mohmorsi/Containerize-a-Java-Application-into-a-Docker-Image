@@ -32,8 +32,9 @@ Using vi or vim, whichever you choose, create a docker file that will containeri
 
 Define a working directory using the shell command `WORKDIR /root/Account` for the Java program and then move Java application over into the directory by using the command `COPY Account.java /root/Account` 
 
-Next, configure 
+I installed OpenJDK on Alpine Linux as it is not pre-installed. Run the alpine package manager using the command `RUN apk add openjdk8` and then setup the environment variables using the commands `ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk`,`ENV PATH $PATH:$JAVA_HOME/bin`
 
+Finally, run the Java application using the command `RUN javac Account.java` and setup an entry point `ENTRYPOINT java Account`. 
 
 ## License
 
