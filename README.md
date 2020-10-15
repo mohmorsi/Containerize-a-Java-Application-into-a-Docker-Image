@@ -34,7 +34,7 @@ I installed OpenJDK on Alpine Linux as it is not pre-installed. Run the alpine p
 Finally, run the Java application using the command `RUN javac Account.java` and setup an entry point `ENTRYPOINT java Account`. 
 
 ## Demo
-<img src="https://media.giphy.com/media/3OiKrJsfDiqqBL8pX3/giphy.gif" width="630" height="415" />
+<img src="https://media.giphy.com/media/ABJMi8szkfplHDy4aF/giphy.gif" width="630" height="415" />
 
 ## License
 Morsi 
