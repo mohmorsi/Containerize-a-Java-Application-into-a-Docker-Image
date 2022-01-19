@@ -37,7 +37,7 @@ Finally, run the Java application using the command `RUN javac Account.java` and
 ![](https://media.giphy.com/media/8TJTGD2PpTQ08oFl1D/giphy.gif)
 
 ## License
-Morsi 
+GPL-3.0 License 
 ## Contributors
 Mohamed Morsi
 ## Questions
