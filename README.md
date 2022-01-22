@@ -2,6 +2,7 @@
 
 ![license](https://img.shields.io/github/license/mohmorsi/Space-Byte?style=flat-square)
 ![made with heart by mohmorsi](https://img.shields.io/badge/made%20with%20%E2%9D%A4%EF%B8%8F%20by-mohmorsi-red?style=flat-square)
+![docker](https://img.shields.io/badge/Docker-4d95e6?style=flat-square&logo=docker&logoColor=white)
 </div>
 
 # Containerizing a Java Application into a Docker Image
