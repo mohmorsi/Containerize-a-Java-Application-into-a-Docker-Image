@@ -1,3 +1,9 @@
+<div align="center">
+
+![license](https://img.shields.io/github/license/mohmorsi/Space-Byte?style=flat-square)
+![made with heart by mohmorsi](https://img.shields.io/badge/made%20with%20%E2%9D%A4%EF%B8%8F%20by-mohmorsi-red?style=flat-square)
+</div>
+
 # Containerizing a Java Application into a Docker Image
 
 ![image](./img/docker2.png)
@@ -12,7 +18,7 @@
 
 
 ## Introduction
-A *container* simply put packages up all the code and dependencies in order in a "canister", in order for the application to run smoothly in any computing environment. A **Docker container image** is a standalone executable that includes the application's code, system libraries and tools as well as its settings. Pretty neat!
+A *container*, simply put, packages up all the code and dependencies and places them into a "canister" such that the application can run smoothly on any computing environment. A **Docker container image** is a standalone executable that includes the application's code, system libraries, tools and its settings. Pretty neat!
 
 ## Usage
 For this demonstration, I will be using a simple Java application named `Account.java` that creates two bank account objects and then sets and prints their balances.
@@ -34,17 +40,24 @@ I installed OpenJDK on Alpine Linux as it is not pre-installed. Run the alpine p
 Finally, run the Java application using the command `RUN javac Account.java` and setup an entry point `ENTRYPOINT java Account`. 
 
 ## Demo
+<div align="center">
+  
 ![](https://media.giphy.com/media/8TJTGD2PpTQ08oFl1D/giphy.gif)
+</div>
 
 ## License
-GPL-3.0 License 
+GPL-3.0 License
+
+Copyright (c) 2021 Mohamed Morsi
+
 ## Contributors
 Mohamed Morsi
+
 ## Questions
 Contact me:
 
-Github: [https://github.com/mohmorsi](https://github.com/mohmorsi)
-
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamedammorsi)
+[![Github Badge](https://img.shields.io/badge/Github-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/mohmorsi)
 
 
 
